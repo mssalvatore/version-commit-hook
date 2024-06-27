@@ -1,0 +1,16 @@
+repository = "https://github.com/mssalvatore/version-commit-hook"
+
+[project]
+name = "version-commit-hook"
+version = "v1.0.0"
+description = "A pre-commit hook to synchronize the version number between VERSION and pyproject.toml"
+authors = [
+    {name = "Mike Salvatore", email = "mike.s.salvatore@gmail.com"}
+]
+license = {text="GPLv3"}
+
+[project.scripts]
+version-commit-hook = "version_commit_hook:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]

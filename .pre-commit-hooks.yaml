@@ -1,0 +1,6 @@
+- id: version-commit-hook
+  name: "Version consistency commit hook"
+  description: "A pre-commit hook to synchronize the version number between VERSION and pyproject.toml"
+  language: python
+  entry: version-commit-hook
+  stages: [pre-commit]
